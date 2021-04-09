@@ -20,7 +20,7 @@ public class logic {
 		else if (Pole == Pass) {
 		 System.out.println("후진합니다");
 		 System.out.println("주차선에 안착합니다");
-		}else  ( Pole != Pass) {
+		}else if ( Pole != Pass) {
 			System.out.println("장애물과 충돌합니다");
 			System.out.println("보험사를 호출합니다");
 		}
